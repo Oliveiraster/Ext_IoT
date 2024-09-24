@@ -21,10 +21,10 @@
 #define RST_PIN 27
 #define SENSOR_PORTA 13
 
-// Informações da rede Wi-Fi
-const char* ssid = "NomeDaRedeWiFi";
-const char* password = "SenhaDaRedeWiFi";
-const char* apiURL = "http://api-seu-servidor.com/cadastrar-acesso"; // URL da API 
+
+const char* ssid = "ManainVII";
+const char* password = " ";
+const char* apiURL = " "; 
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);   
 LiquidCrystal_I2C lcd(0x27, 16, 2);
